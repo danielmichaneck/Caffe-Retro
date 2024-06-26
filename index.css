@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: auto;
     background-color: black;
 }
 
@@ -11,18 +11,30 @@ body {
 .top-buttons {
     display: flex;
     justify-content: center;
+    gap: 4rem;
+}
+
+button {
+    padding: 1rem;
+
+    cursor: pointer;
+    background: none;
+    border: none;
 
     font-family: "Spirax", sans-serif;
     font-size: xx-large;
     color: white;
-    gap: 4rem;
 }
 
 /* ######### Page setup ######### */
 .page {
-    margin: 0;
-    width: 962px;
+    margin: auto;
+    max-width: 962px;
+    min-width: 300px;
     height: 661px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #page-1 {
@@ -53,7 +65,8 @@ body {
 }
 
 .page-break {
-    margin: 0;
+    margin: auto;
+    max-width: 962px;
     background-color: rgb(141, 0, 1);
     color: rgb(141, 0, 1);
 }
@@ -63,22 +76,23 @@ body {
     background-color: rgb(141, 0, 1, 0.8);
     font-size: 1.2rem;
     padding: 1rem;
+    text-align: center;
 }
 
 #bubble-1 {
-    margin-left: 15%;
+    margin-left: 21%;
     margin-right: 25%;
 }
 
 #bubble-2 {
-    margin-left: 25%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 18%;
 }
 
 /* ######### Page information boxes ######### */
 .page-information {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;

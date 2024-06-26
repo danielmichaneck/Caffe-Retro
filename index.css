@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.top-bar {
+    background-color: darkred;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}

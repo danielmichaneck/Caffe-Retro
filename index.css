@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 .top-bar {
@@ -18,12 +19,31 @@ body {
 }
 
 /* ######### Page setup ######### */
+.page {
+    margin: 0;
+    width: 962px;
+    height: 661px;
+}
+
+#page-1 {
+    background-image: url("assets/hot.jpg");
+}
+
+#page-2 {
+    background-image: url("assets/juicy.jpg");
+}
+
+#page-3 {
+    background-image: url("assets/cosy.jpg");
+}
+
 .page-header {
     display: flex;
     justify-content: center;
-    
+    margin: 0;
+    padding-top: 16%;
     font-family: "Spirax", sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #8D0001;
 }
 
@@ -33,6 +53,7 @@ body {
 }
 
 .page-break {
+    margin: 0;
     background-color: rgb(141, 0, 1);
     color: rgb(141, 0, 1);
 }
@@ -40,7 +61,7 @@ body {
 /* ######### Page bubbles ######### */
 .page-bubble {
     background-color: rgb(141, 0, 1, 0.8);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
 }
 

@@ -3,25 +3,78 @@ body {
 }
 
 .top-bar {
-    background-color: #8D0001;
-    background-color: rgb(81, 66, 74, 0.5);
+    background-color: rgb(25, 20, 23, 0.8);
     
 }
 
 .top-buttons {
     display: flex;
+    justify-content: center;
+
     font-family: "Spirax", sans-serif;
     font-size: xx-large;
     color: white;
-    justify-content: center;
     gap: 4rem;
 }
 
-.page.header {
+/* ######### Page setup ######### */
+.page-header {
+    display: flex;
+    justify-content: center;
+    
     font-family: "Spirax", sans-serif;
-    font-size: xx-large;
+    font-size: 4rem;
+    color: #8D0001;
 }
 
 .page-body {
-    
+    font-family: "Poiret One", sans-serif;
+    color: white;
+}
+
+.page-break {
+    background-color: rgb(141, 0, 1);
+    color: rgb(141, 0, 1);
+}
+
+/* ######### Page bubbles ######### */
+.page-bubble {
+    background-color: rgb(141, 0, 1, 0.8);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#bubble-1 {
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+#bubble-2 {
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+/* ######### Page information boxes ######### */
+.page-information {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    background-color: rgb(25, 20, 23, 0.8);
+    font-size: 1rem;
+}
+
+.page-information-line {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+.page-information-text {
+    margin: 0;
 }

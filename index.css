@@ -3,11 +3,25 @@ body {
 }
 
 .top-bar {
-    background-color: darkred;
+    background-color: #8D0001;
+    background-color: rgb(81, 66, 74, 0.5);
+    
 }
 
 .top-buttons {
     display: flex;
+    font-family: "Spirax", sans-serif;
+    font-size: xx-large;
+    color: white;
     justify-content: center;
-    gap: 10rem;
+    gap: 4rem;
+}
+
+.page.header {
+    font-family: "Spirax", sans-serif;
+    font-size: xx-large;
+}
+
+.page-body {
+    
 }

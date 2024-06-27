@@ -5,7 +5,9 @@ body {
 
 .top-bar {
     background-color: rgb(25, 20, 23, 0.8);
-    
+    position: fixed;
+    text-align: center;
+    width: 100%;
 }
 
 .top-buttons {
@@ -15,14 +17,26 @@ body {
 }
 
 button {
-    padding: 1rem;
+    
+    
+    padding: 0.7rem;
 
     cursor: pointer;
     background: none;
     border: none;
+    
 
     font-family: "Spirax", sans-serif;
     font-size: xx-large;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
     color: white;
 }
 

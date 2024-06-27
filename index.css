@@ -3,6 +3,8 @@ body {
     background-color: black;
 }
 
+/* ######### Top bar ######### */
+
 .top-bar {
     background-color: rgb(25, 20, 23, 0.8);
     position: fixed;
@@ -17,8 +19,6 @@ body {
 }
 
 button {
-    
-    
     padding: 0.7rem;
 
     cursor: pointer;
@@ -40,15 +40,21 @@ a:visited {
     color: white;
 }
 
+/* ######### Content ######### */
+
+.content {
+}
+
 /* ######### Page setup ######### */
 .page {
     margin: auto;
-    max-width: 962px;
-    min-width: 300px;
-    height: 661px;
-
+    height: 100vh;
+    /* Magic number ahoy! 62% of 1080, full hd height divided by aspect ratio in sketch*/
+    background-size: 1190px 100vh;
+    width: 1190px;
     background-repeat: no-repeat;
     background-position: center center;
+    border-bottom: 1rem solid rgb(141, 0, 1);
 }
 
 #page-1 {
@@ -61,15 +67,16 @@ a:visited {
 
 #page-3 {
     background-image: url("assets/cosy.jpg");
+    border-bottom: 0rem;
 }
 
 .page-header {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding-top: 16%;
+    padding-top: 26.5%;
     font-family: "Spirax", sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     color: #8D0001;
 }
 
@@ -78,17 +85,10 @@ a:visited {
     color: white;
 }
 
-.page-break {
-    margin: auto;
-    max-width: 962px;
-    background-color: rgb(141, 0, 1);
-    color: rgb(141, 0, 1);
-}
-
 /* ######### Page bubbles ######### */
 .page-bubble {
     background-color: rgb(141, 0, 1, 0.8);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 1rem;
     text-align: center;
 }

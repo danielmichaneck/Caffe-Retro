@@ -10,7 +10,6 @@ body {
 .top-bar {
     margin: auto 20%;
     width: 60vw;
-
     position: fixed;
 
     text-align: center;
@@ -32,7 +31,6 @@ button {
     cursor: pointer;
     background: none;
     border: none;
-    
 
     font-family: "Spirax", sans-serif;
     font-size: 3.25rem;

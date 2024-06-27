@@ -1,3 +1,5 @@
+/* ######### Body ######### */
+
 body {
     margin: auto;
     background-color: black;
@@ -17,6 +19,8 @@ body {
     justify-content: center;
     gap: 4rem;
 }
+
+/* ######### Button ######### */
 
 button {
     padding: 0.7rem;
@@ -40,21 +44,17 @@ a:visited {
     color: white;
 }
 
-/* ######### Content ######### */
-
-.content {
-}
-
-/* ######### Page setup ######### */
+/* ######### Pages ######### */
 .page {
     margin: auto;
     height: 100vh;
-    /* Magic number ahoy! 62% of 1080, full hd height divided by aspect ratio in sketch*/
-    background-size: 1190px 100vh;
-    width: 1190px;
+    width: 60vw;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+
     border-bottom: 1rem solid rgb(141, 0, 1);
+    object-fit: contain;
 }
 
 #page-1 {
@@ -70,56 +70,68 @@ a:visited {
     border-bottom: 0rem;
 }
 
+/* ######### Page header ######### */
+
 .page-header {
     display: flex;
     justify-content: center;
+
     margin: 0;
-    padding-top: 26.5%;
+    padding-top: 19%;
+
     font-family: "Spirax", sans-serif;
-    font-size: 6rem;
+    font-size: 6.5rem;
     color: #8D0001;
 }
+
+/* ######### Page body ######### */
 
 .page-body {
     font-family: "Poiret One", sans-serif;
     color: white;
 }
 
-/* ######### Page bubbles ######### */
+/* ######### Page bubble ######### */
 .page-bubble {
+    margin: 4%;
+    padding: 1rem;
+
     background-color: rgb(141, 0, 1, 0.8);
     font-size: 1.5rem;
-    padding: 1rem;
+
     text-align: center;
 }
 
 #bubble-1 {
-    margin-left: 21%;
-    margin-right: 25%;
+    margin-left: 14%;
+    margin-right: 29%;
 }
 
 #bubble-2 {
-    margin-left: 30%;
-    margin-right: 18%;
+    margin-left: 29%;
+    margin-right: 14%;
 }
 
-/* ######### Page information boxes ######### */
+/* ######### Page information box ######### */
 .page-information {
     margin-left: 23%;
     margin-right: 23%;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+
     display: flex;
     flex-direction: column;
     gap: 0rem;
+
     background-color: rgb(25, 20, 23, 0.8);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .page-information-line {
     margin: 0;
     padding: 0;
+
     display: flex;
     justify-content:space-between;
 }
